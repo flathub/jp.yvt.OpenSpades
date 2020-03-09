@@ -3,7 +3,7 @@
   <id>jp.yvt.OpenSpades</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <project_license>OpenSpades Non-GPL Pak License</project_license>
+  <project_license>LicenseRef-Proprietary=https://github.com/yvt/openspades-paks/blob/master/Nonfree/LICENSE.md</project_license>
   <name>OpenSpades</name>
 
   <summary>Open Source voxel shooter</summary>
@@ -39,22 +39,22 @@
   
   <screenshots>
     <screenshot type="default">
-      <image>http://openspades.yvt.jp/media/images/ss4.jpg</image>
+      <image type="source">https://github.com/flathub/jp.yvt.OpenSpades/raw/master/screenshots/ss4.jpg</image>
     </screenshot>
     <screenshot>
-      <image>http://openspades.yvt.jp/media/images/ss5.jpg</image>
+      <image type="source">https://github.com/flathub/jp.yvt.OpenSpades/raw/master/screenshots/ss5.jpg</image>
     </screenshot>
     <screenshot>
-      <image>http://openspades.yvt.jp/media/images/ss6.jpg</image>
+      <image type="source">https://github.com/flathub/jp.yvt.OpenSpades/raw/master/screenshots/ss6.jpg</image>
     </screenshot>
     <screenshot>
-      <image>http://openspades.yvt.jp/media/images/ss1.jpg</image>
+      <image type="source">https://github.com/flathub/jp.yvt.OpenSpades/raw/master/screenshots/ss1.jpg</image>
     </screenshot>
     <screenshot>
-      <image>http://openspades.yvt.jp/media/images/ss2.jpg</image>
+      <image type="source">https://github.com/flathub/jp.yvt.OpenSpades/raw/master/screenshots/ss2.jpg</image>
     </screenshot>
     <screenshot>
-      <image>http://openspades.yvt.jp/media/images/ss3.jpg</image>
+      <image type="source">https://github.com/flathub/jp.yvt.OpenSpades/raw/master/screenshots/ss3.jpg</image>
     </screenshot>
   </screenshots>
 
