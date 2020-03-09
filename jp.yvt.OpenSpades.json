@@ -51,8 +51,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://imagemagick.org/download/releases/ImageMagick-7.0.8-66.zip",
-          "sha256": "d1bd52482bd8fe36d95daf1bb843933c0a5bad651107c9916fb2a647a67be2e6"
+          "url": "https://imagemagick.org/download/releases/ImageMagick-7.0.10-0.tar.gz",
+          "sha256": "3b114b61fcd85867cfac187f0d0ba2211bf666ffbda8d3bb8b144d05efc17246"
         }
       ]
     },
