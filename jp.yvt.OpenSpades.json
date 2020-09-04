@@ -1,7 +1,7 @@
 {
   "app-id": "jp.yvt.OpenSpades",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "19.08",
+  "runtime-version": "20.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "openspades",
   "finish-args": [
@@ -51,8 +51,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://imagemagick.org/download/releases/ImageMagick-7.0.10-0.tar.gz",
-          "sha256": "3b114b61fcd85867cfac187f0d0ba2211bf666ffbda8d3bb8b144d05efc17246"
+          "url": "https://imagemagick.org/download/releases/ImageMagick-7.0.10-28.tar.gz",
+          "sha256": "32401ba8b9edee4c3eb53bb6436490c352d8d9d77d2a3fab390f5fc6037dae84"
         }
       ]
     },
