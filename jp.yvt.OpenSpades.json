@@ -40,7 +40,7 @@
         },
         {
             "name": "openspades",
-            "buildsystem": "cmake",
+            "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DOPENSPADES_INSTALL_BINARY=bin",
                 "-DOPENSPADES_RESDIR=/app/extra/Resources/",
