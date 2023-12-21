@@ -55,7 +55,7 @@ modules:
         commands: 
           - unzip -q nonfree-paks.zip
           - rm nonfree-paks.zip
-          - mkdir Resources
+          - mkdir --parents Resources
           - mv Nonfree/* ./Resources
           - mv OfficialMods/* ./Resources
           - rmdir Nonfree OfficialMods
