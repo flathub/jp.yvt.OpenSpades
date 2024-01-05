@@ -1,6 +1,6 @@
 app-id: jp.yvt.OpenSpades
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 command: openspades
 finish-args: 
@@ -35,8 +35,8 @@ modules:
       - /lib
     sources: 
       - type: archive
-        url: https://imagemagick.org/archive/ImageMagick-7.1.0-47.tar.gz
-        sha256: f3a27c7e9fb6b2bf4898372d1a6278cf4e303f46e8e68fffef06e0d863c30e0d
+        url: https://imagemagick.org/archive/ImageMagick-7.1.1-23.tar.gz
+        sha256: bae8ab5759bac61c259ef21aafeffd6e24b19119d3714c68ce4d1d3089dbc349
   - name: openspades
     buildsystem: cmake
     config-opts: 
@@ -55,7 +55,7 @@ modules:
         commands: 
           - unzip -q nonfree-paks.zip
           - rm nonfree-paks.zip
-          - mkdir Resources
+          - mkdir --parents Resources
           - mv Nonfree/* ./Resources
           - mv OfficialMods/* ./Resources
           - rmdir Nonfree OfficialMods
