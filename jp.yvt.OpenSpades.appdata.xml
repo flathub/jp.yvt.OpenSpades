@@ -4,6 +4,9 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+ and LicenseRef-Proprietary=https://github.com/yvt/openspades-paks/blob/master/Nonfree/LICENSE.md
   </project_license>
+  <developer id="jp.yvt">
+   	 <name>OpenSpades</name>
+    </developer>
   <name>OpenSpades</name>
 
   <summary>Open Source voxel shooter</summary>

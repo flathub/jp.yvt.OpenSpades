@@ -1,6 +1,6 @@
 app-id: jp.yvt.OpenSpades
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 command: openspades
 finish-args: 
@@ -29,14 +29,12 @@ modules:
         sha256: 74ce9b6cf4da103133e7b5c95df810ceb7195471e1162ed57af415fabf5603bf
   - name: imagemagick
     cleanup: 
-      - /bin
-      - /etc
-      - /share
-      - /lib
+      - "*"
     sources: 
-      - type: archive
-        url: https://imagemagick.org/archive/ImageMagick-7.1.1-23.tar.gz
-        sha256: bae8ab5759bac61c259ef21aafeffd6e24b19119d3714c68ce4d1d3089dbc349
+      - type: git
+        url: https://github.com/ImageMagick/ImageMagick.git
+        tag: 7.1.1-38
+        sha256: b0ab92265bab638e6ecd2f18b45977c38771c671
   - name: openspades
     buildsystem: cmake
     config-opts: 
