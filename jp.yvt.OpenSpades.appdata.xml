@@ -6,7 +6,7 @@
   </project_license>
   <developer id="jp.yvt">
    	 <name>OpenSpades</name>
-    </developer>
+  </developer>
   <name>OpenSpades</name>
 
   <summary>Open Source voxel shooter</summary>
@@ -36,10 +36,11 @@
 
   <launchable type="desktop-id">jp.yvt.OpenSpades.desktop</launchable>
 
-  <url type="homepage">http://openspades.yvt.jp/</url>
+  <url type="homepage">https://openspades.yvt.jp</url>
   <url type="bugtracker">https://github.com/yvt/openspades/issues</url>
+  <url type="vcs-browser">https://github.com/yvt/openspades</url>
   <url type="translate">https://crowdin.com/project/openspades</url>
-  
+
   <screenshots>
     <screenshot type="default">
       <image type="source">https://github.com/flathub/jp.yvt.OpenSpades/raw/master/screenshots/ss4.jpg</image>
@@ -64,17 +65,17 @@
   <releases>
     <release version="0.1.3" date="2019-01-04">
       <description>
-        This release contains minor fixes since the previous version 0.1.2.
+        <p>This release contains minor fixes since the previous version 0.1.2.</p>
       </description>
     </release>
     <release version="0.1.2" date="2018-01-01">
       <description>
-        This release contains minor fixes since the previous version 0.1.1c.
+        <p>This release contains minor fixes since the previous version 0.1.1c.</p>
       </description>
     </release>
     <release version="0.1.1c" date="2017-03-04">
       <description>
-        Contains minor or critical fixes since the previous version 0.1.1b.
+        <p>Contains minor or critical fixes since the previous version 0.1.1b.</p>
       </description>
     </release>
   </releases>
